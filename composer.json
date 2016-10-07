@@ -1,0 +1,37 @@
+{
+    "name": "arslanim/flarum-ext-auth-wp",
+    "description": "Allow users to log in with WP account.",
+    "type": "flarum-extension",
+    "keywords": ["authentication"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Arslan Imamutdinov",
+            "email": "arslan92@mail.ru",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/arslanim/flarum-ext-auth-wp/issues",
+        "source": "https://github.com/arslanim/flarum-ext-auth-wp"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.5",
+        "league/oauth1-client": "^1.6"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "WP login",
+            "icon": {
+                "name": "wordpress",
+                "backgroundColor": "#01a6cb",
+                "color": "#ffffff"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Arslanim\\Auth\\Wordpress\\": "src/"
+        }
+    }
+}
