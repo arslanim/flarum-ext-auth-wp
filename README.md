@@ -8,4 +8,4 @@ Extension settings on administration panel|
 
 Forum login popup with activated Wordpress extension|
 ---------|
-![Flarum wp extension settings](/resources/docs/log-in-form.png) |
+![Flarum login form](/resources/docs/log-in-form.png) |
