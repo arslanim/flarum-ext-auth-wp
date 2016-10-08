@@ -1,5 +1,5 @@
 # Flarum authentication with Wordpress site user account
-Extension provides authentication into Flarum forum with Wordpress site account.
-Extension settings on administration panel |
+
+Extension provides authentication into Flarum forum with Wordpress site account |
 ---------|
-!(/resources/docs/wp-settings.png) |
+![Flarum wp extension settings](/resources/docs/wp-settings.png) |
