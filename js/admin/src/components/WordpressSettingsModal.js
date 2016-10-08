@@ -17,17 +17,17 @@ export default class WordpressSettingsModal extends SettingsModal {
                 <label>App settings</label>
                 <div className="Form-group--column50">
                     <label>App id</label>
-                    <input className="FormControl" bidi={this.setting('arslanim-auth-wp.app_id')}/>
+                    <input className="FormControl" bidi={this.setting('arslanim/auth/wp.app_id')}/>
                 </div>
                 <div className="Form-group--column50">
                     <label>App secret</label>
-                    <input className="FormControl" bidi={this.setting('arslanim-auth-wp.app_secret')}/>
+                    <input className="FormControl" bidi={this.setting('arslanim/auth/wp.app_secret')}/>
                 </div>
             </div>,
             
             <div className="Form-group">
                 <label>Wordpress site url</label>
-                <input className="FormControl" placeholder="http:\\example.com" bidi={this.setting('arslanim-auth-wp.wp_site_url')} />
+                <input className="FormControl" placeholder="http:\\example.com" bidi={this.setting('arslanim/auth/wp.wp_site_url')} />
             </div>
         ];
     }

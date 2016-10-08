@@ -48,7 +48,7 @@ System.register('arslanim/auth/wp/components/WordpressSettingsModal', ['flarum/c
                                     null,
                                     'App id'
                                 ),
-                                m('input', { className: 'FormControl', bidi: this.setting('arslanim-auth-wp.app_id') })
+                                m('input', { className: 'FormControl', bidi: this.setting('arslanim/auth/wp.app_id') })
                             ),
                             m(
                                 'div',
@@ -58,7 +58,7 @@ System.register('arslanim/auth/wp/components/WordpressSettingsModal', ['flarum/c
                                     null,
                                     'App secret'
                                 ),
-                                m('input', { className: 'FormControl', bidi: this.setting('arslanim-auth-wp.app_secret') })
+                                m('input', { className: 'FormControl', bidi: this.setting('arslanim/auth/wp.app_secret') })
                             )
                         ), m(
                             'div',
@@ -68,7 +68,7 @@ System.register('arslanim/auth/wp/components/WordpressSettingsModal', ['flarum/c
                                 null,
                                 'Wordpress site url'
                             ),
-                            m('input', { className: 'FormControl', placeholder: 'http:\\\\example.com', bidi: this.setting('arslanim-auth-wp.wp_site_url') })
+                            m('input', { className: 'FormControl', placeholder: 'http:\\\\example.com', bidi: this.setting('arslanim/auth/wp.wp_site_url') })
                         )];
                     }
                 }]);
