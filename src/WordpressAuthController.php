@@ -25,8 +25,8 @@ class WordpressAuthController implements ControllerInterface {
 
 		//server class (wordpress site)
 		$server = new Wordpress([
-			'identifier' => $this->settings->get('arslanim/auth/wp.app_id'),//'9FkG0vl5qR14'
-			'secret' => $this->settings->get('arslanim/auth/wp.app_secret'),//'fZXTmwoq9nR8XanCUEXrdzACNyw5nQUY99a7igzM4wl6qtX3'
+			'identifier' => $this->settings->get('arslanim/auth/wp.app_id'),
+			'secret' => $this->settings->get('arslanim/auth/wp.app_secret'),
 			'callbac_uri' => $redirectUri
 		], null, $redirectUri, $this->settings->get('arslanim/auth/wp.wp_site_url'));
 
